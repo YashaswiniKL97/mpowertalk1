@@ -1,0 +1,3160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="mPowerTalk - Talks That Transform"
+    >
+
+    <title>mPowerTalk | Talks That Transform</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header
+    class="site-header"
+    id="siteHeader"
+>
+
+
+    <div class="navbar-container">
+
+
+        <!-- =================================================
+             LOGO
+        ================================================== -->
+
+        <a
+            href="#home"
+            class="logo"
+            aria-label="mPowerTalk Home"
+        >
+
+            <img
+                src="assets/mpowertalk-logo.png"
+                alt="mPowerTalk"
+            >
+
+        </a>
+
+
+
+        <!-- =================================================
+             DESKTOP NAVIGATION
+        ================================================== -->
+
+        <nav
+            class="desktop-navigation"
+            id="desktopNavigation"
+            aria-label="Main Navigation"
+        >
+
+
+            <a
+                href="#home"
+                class="nav-item active"
+                data-en="Home"
+                data-kn="ಮುಖಪುಟ"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="#about"
+                class="nav-item"
+                data-en="About"
+                data-kn="ನಮ್ಮ ಬಗ್ಗೆ"
+            >
+                About
+            </a>
+
+
+            <a
+                href="#programs"
+                class="nav-item"
+                data-en="Programs"
+                data-kn="ಕಾರ್ಯಕ್ರಮಗಳು"
+            >
+                Programs
+            </a>
+
+
+            <a
+                href="#events"
+                class="nav-item"
+                data-en="Events"
+                data-kn="ಈವೆಂಟ್ಸ್"
+            >
+                Events
+            </a>
+
+
+            <a
+                href="#podcast"
+                class="nav-item"
+                data-en="Podcast"
+                data-kn="ಪಾಡ್‌ಕಾಸ್ಟ್"
+            >
+                Podcast
+            </a>
+
+
+            <a
+                href="#contact"
+                class="nav-item"
+                data-en="Contact"
+                data-kn="ಸಂಪರ್ಕಿಸಿ"
+            >
+                Contact
+            </a>
+
+
+        </nav>
+
+
+
+        <!-- =================================================
+             RIGHT SIDE ACTIONS
+        ================================================== -->
+
+        <div class="navbar-actions">
+
+
+            <!-- LANGUAGE -->
+
+            <div class="language-selector">
+
+
+                <button
+                    class="language-button"
+                    id="languageButton"
+                    type="button"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                >
+
+                    <span class="language-globe">
+                        🌐
+                    </span>
+
+                    <span id="currentLanguage">
+                        EN
+                    </span>
+
+                    <span class="language-arrow">
+                        ▾
+                    </span>
+
+                </button>
+
+
+
+                <!-- LANGUAGE DROPDOWN -->
+
+                <div
+                    class="language-dropdown"
+                    id="languageDropdown"
+                >
+
+
+                    <button
+                        type="button"
+                        class="language-option selected"
+                        data-language="en"
+                    >
+
+                        <span>
+                            English
+                        </span>
+
+                        <small>
+                            EN
+                        </small>
+
+                    </button>
+
+
+
+                    <button
+                        type="button"
+                        class="language-option"
+                        data-language="kn"
+                    >
+
+                        <span>
+                            ಕನ್ನಡ
+                        </span>
+
+                        <small>
+                            ಕನ್ನಡ
+                        </small>
+
+                    </button>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BOOK SESSION -->
+
+            <a
+                href="#contact"
+                class="book-session"
+                data-en="Book a Session"
+                data-kn="ಸೆಷನ್ ಬುಕ್ ಮಾಡಿ"
+            >
+
+                <span class="book-text">
+                    Book a Session
+                </span>
+
+                <span class="book-arrow">
+                    →
+                </span>
+
+            </a>
+
+
+
+            <!-- MOBILE HAMBURGER -->
+
+            <button
+                class="hamburger"
+                id="hamburger"
+                type="button"
+                aria-label="Open Menu"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MOBILE MENU
+    ===================================================== -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+    >
+
+
+        <nav class="mobile-navigation">
+
+
+            <a
+                href="#home"
+                class="mobile-nav-item active"
+                data-en="Home"
+                data-kn="ಮುಖಪುಟ"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="#about"
+                class="mobile-nav-item"
+                data-en="About"
+                data-kn="ನಮ್ಮ ಬಗ್ಗೆ"
+            >
+                About
+            </a>
+
+
+            <a
+                href="#programs"
+                class="mobile-nav-item"
+                data-en="Programs"
+                data-kn="ಕಾರ್ಯಕ್ರಮಗಳು"
+            >
+                Programs
+            </a>
+
+
+            <a
+                href="#events"
+                class="mobile-nav-item"
+                data-en="Events"
+                data-kn="ಈವೆಂಟ್ಸ್"
+            >
+                Events
+            </a>
+
+
+            <a
+                href="#podcast"
+                class="mobile-nav-item"
+                data-en="Podcast"
+                data-kn="ಪಾಡ್‌ಕಾಸ್ಟ್"
+            >
+                Podcast
+            </a>
+
+
+            <a
+                href="#contact"
+                class="mobile-nav-item"
+                data-en="Contact"
+                data-kn="ಸಂಪರ್ಕಿಸಿ"
+            >
+                Contact
+            </a>
+
+
+        </nav>
+
+
+
+        <!-- MOBILE LANGUAGE -->
+
+        <div class="mobile-language-area">
+
+
+            <p
+                data-en="Choose Language"
+                data-kn="ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+            >
+                Choose Language
+            </p>
+
+
+            <div class="mobile-language-buttons">
+
+
+                <button
+                    class="mobile-language-option active"
+                    data-language="en"
+                    type="button"
+                >
+                    English
+                </button>
+
+
+                <button
+                    class="mobile-language-option"
+                    data-language="kn"
+                    type="button"
+                >
+                    ಕನ್ನಡ
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- MOBILE BOOK BUTTON -->
+
+        <a
+            href="#contact"
+            class="mobile-book-session"
+            data-en="Book a Session →"
+            data-kn="ಸೆಷನ್ ಬುಕ್ ಮಾಡಿ →"
+        >
+            Book a Session →
+        </a>
+
+
+    </div>
+
+
+</header>
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+<main id="home">
+
+    <section class="hero-section">
+
+        <div class="hero-container">
+
+
+            <!-- =================================================
+                 HERO LEFT CONTENT
+            ================================================== -->
+
+            <div class="hero-content">
+
+
+                <!-- SMALL TOP LABEL -->
+
+                <div class="hero-label">
+
+                    <span
+                        data-en="PEOPLE • CONVERSATIONS • OPPORTUNITIES"
+                        data-kn="ಜನರು • ಸಂವಾದಗಳು • ಅವಕಾಶಗಳು"
+                    >
+                        PEOPLE • CONVERSATIONS • OPPORTUNITIES
+                    </span>
+
+                </div>
+
+
+                <!-- MAIN HEADING -->
+
+                <h1 class="hero-title">
+
+                    <span
+                        class="hero-title-line"
+                        data-en="Better Conversations"
+                        data-kn="ಉತ್ತಮ ಸಂವಾದಗಳು"
+                    >
+                        Better Conversations
+                    </span>
+
+                    <br>
+
+                    <span
+                        class="hero-title-highlight"
+                        data-en="Brighter Tomorrows"
+                        data-kn="ಉಜ್ವಲ ಭವಿಷ್ಯ"
+                    >
+                        Brighter Tomorrows
+                    </span>
+
+                </h1>
+
+
+                <!-- KANNADA / ENGLISH TAGLINE -->
+<p
+    class="hero-kannada"
+    data-en="Real conversations. Real growth."
+    data-kn="ನೈಜ ಸಂವಾದಗಳು. ನೈಜ ಬೆಳವಣಿಗೆ."
+>
+    Real conversations. Real growth.
+</p>
+
+
+                <!-- DESCRIPTION -->
+
+               <p
+    class="hero-description"
+    data-en="Talks, workshops and real stories to help you learn, grow and find better opportunities."
+    data-kn="ಮಾತುಕತೆಗಳು, ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ನೈಜ ಕಥೆಗಳ ಮೂಲಕ ಕಲಿಯಲು, ಬೆಳೆಯಲು ಮತ್ತು ಉತ್ತಮ ಅವಕಾಶಗಳನ್ನು ಕಂಡುಕೊಳ್ಳಲು ಸಹಾಯ."
+>
+    Talks, workshops and real stories to help you learn,
+    grow and find better opportunities.
+</p>
+
+
+                <!-- =================================================
+                     HERO BUTTONS
+                ================================================== -->
+
+                <div class="hero-actions">
+
+
+                    <!-- EXPLORE EVENTS -->
+
+                    <a
+                        href="#events"
+                        class="hero-primary-button"
+                    >
+
+                        <span
+                            data-en="Explore Events"
+                            data-kn="ಈವೆಂಟ್ಸ್ ನೋಡಿ"
+                        >
+                            Explore Events
+                        </span>
+
+                        <span class="hero-button-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <!-- WATCH VIDEO -->
+
+                    <a
+                        href="#podcast"
+                        class="hero-secondary-button"
+                    >
+
+                        <span class="play-icon">
+                            ▶
+                        </span>
+
+                        <span
+                            data-en="Watch Video"
+                            data-kn="ವೀಡಿಯೋ ನೋಡಿ"
+                        >
+                            Watch Video
+                        </span>
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- =================================================
+     HERO IMAGE SLIDER
+================================================== -->
+
+<div class="hero-visual">
+
+    <div class="hero-slider">
+
+        <!-- CURRENT mPowerTalk BANNER -->
+
+        <div class="hero-slide hero-slide-active">
+
+            <img
+                src="assets/mpowertalk-hero-image.png"
+                alt="mPowerTalk conversations and learning"
+                class="hero-image"
+            >
+
+        </div>
+
+
+        <!-- SALES WORKSHOP BANNER -->
+
+        <a
+            href="https://wa.me/919886756745?text=Hi%20mPowerTalk%2C%20I%20would%20like%20to%20book%20the%20Sales%20Workshop%20on%2017%20September."
+            class="hero-slide"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Book Sales Workshop on WhatsApp"
+        >
+
+            <img
+                src="assets/sales-workshop-banner.png"
+                alt="mPowerTalk Sales Workshop - 17 September, Mysuru"
+                class="hero-image"
+            >
+
+        </a>
+
+    </div>
+
+</div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FEATURE HIGHLIGHTS SECTION
+    ===================================================== -->
+
+    <section class="feature-highlights">
+
+        <div class="feature-container">
+
+
+            <!-- =================================================
+                 FEATURE CARD 1
+            ================================================== -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    👥
+                </div>
+
+                <div class="feature-content">
+
+                    <h3
+                        data-en="Interactive Sessions"
+                        data-kn="ಸಂವಾದಾತ್ಮಕ ಸಂವಾದಗಳು"
+                    >
+                        Interactive Sessions
+                    </h3>
+
+                    <p
+                        data-en="Ask, learn and share with real people."
+                        data-kn="ನೈಜ ವ್ಯಕ್ತಿಗಳೊಂದಿಗೆ ಕೇಳಿ, ಕಲಿಯಿರಿ ಮತ್ತು ನಿಮ್ಮ ವಿಚಾರಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ."
+                    >
+                        Ask, learn and share with real people.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FEATURE CARD 2
+            ================================================== -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💡
+                </div>
+
+                <div class="feature-content">
+
+                    <h3
+                        data-en="Expert Guidance"
+                        data-kn="ತಜ್ಞರ ಮಾರ್ಗದರ್ಶನ"
+                    >
+                        Expert Guidance
+                    </h3>
+
+                    <p
+                        data-en="Learn from experienced speakers and mentors."
+                        data-kn="ಅನುಭವ ಹೊಂದಿರುವ ತಜ್ಞರು ಮತ್ತು ಮಾರ್ಗದರ್ಶಕರಿಂದ ಕಲಿಯಿರಿ."
+                    >
+                        Learn from experienced speakers and mentors.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FEATURE CARD 3
+            ================================================== -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📊
+                </div>
+
+                <div class="feature-content">
+
+                    <h3
+                        data-en="Real-World Skills"
+                        data-kn="ನೈಜ ಜೀವನದ ಕೌಶಲ್ಯಗಳು"
+                    >
+                        Real-World Skills
+                    </h3>
+
+                    <p
+                        data-en="Build useful skills for study, career and life."
+                        data-kn="ವಿದ್ಯಾಭ್ಯಾಸ, ವೃತ್ತಿಜೀವನ ಮತ್ತು ಜೀವನಕ್ಕೆ ಉಪಯುಕ್ತ ಕೌಶಲ್ಯಗಳನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳಿ."
+                    >
+                        Build useful skills for study, career and life.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FEATURE CARD 4
+            ================================================== -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    ⭐
+                </div>
+
+                <div class="feature-content">
+
+                    <h3
+                        data-en="Better Opportunities"
+                        data-kn="ಉತ್ತಮ ಅವಕಾಶಗಳು"
+                    >
+                        Better Opportunities
+                    </h3>
+
+                    <p
+                        data-en="Get noticed and be ready for what's next."
+                        data-kn="ನಿಮ್ಮ ಸಾಮರ್ಥ್ಯವನ್ನು ತೋರಿಸಿ ಮತ್ತು ಮುಂದಿನ ಅವಕಾಶಗಳಿಗೆ ಸಿದ್ಧರಾಗಿ."
+                    >
+                        Get noticed and be ready for what's next.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         UPCOMING EVENTS SECTION
+    ===================================================== -->
+
+    <section
+        class="events-section"
+        id="events"
+    >
+
+        <div class="events-container">
+
+
+            <!-- =================================================
+                 EVENTS HEADER
+            ================================================= -->
+
+            <div class="events-header">
+
+                <div class="events-heading">
+
+                    <div class="events-title-row">
+
+                        <span class="events-yellow-line"></span>
+
+                        <h2
+                            data-en="UPCOMING EVENTS"
+                            data-kn="ಮುಂಬರುವ ಈವೆಂಟ್ಸ್"
+                        >
+                            UPCOMING EVENTS
+                        </h2>
+
+                    </div>
+
+
+                    <p
+                        data-en="Join our upcoming sessions and be part of inspiring conversations."
+                        data-kn="ನಮ್ಮ ಮುಂಬರುವ ಕಾರ್ಯಕ್ರಮಗಳಲ್ಲಿ ಭಾಗವಹಿಸಿ ಮತ್ತು ಸ್ಪೂರ್ತಿದಾಯಕ ಸಂವಾದಗಳ ಭಾಗವಾಗಿರಿ."
+                    >
+                        Join our upcoming sessions and be part of inspiring conversations.
+                    </p>
+
+                </div>
+
+
+                <!-- VIEW ALL -->
+
+                <a
+                    href="#events"
+                    class="view-all-events"
+                >
+
+                    <span
+                        data-en="View All Events"
+                        data-kn="ಎಲ್ಲಾ ಈವೆಂಟ್ಸ್ ನೋಡಿ"
+                    >
+                        View All Events
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 EVENT CARDS
+            ================================================= -->
+
+            <div class="events-scroll-wrapper">
+
+                <div class="events-grid">
+
+
+                    <!-- =================================================
+                         EVENT 1
+                    ================================================= -->
+
+                    <article class="event-card">
+
+                        <div class="event-card-top">
+
+
+                            <!-- DATE -->
+
+                            <div class="event-date">
+
+                                <strong>
+                                    28
+                                </strong>
+
+                                <span>
+                                    SEP
+                                </span>
+
+                            </div>
+
+
+                            <!-- EVENT INFO -->
+
+                            <div class="event-main-info">
+
+                                <h3
+                                    data-en="Communication for Career Success"
+                                    data-kn="ವೃತ್ತಿ ಯಶಸ್ಸಿಗಾಗಿ ಸಂವಹನ"
+                                >
+                                    Communication
+                                    <br>
+                                    for Career Success
+                                </h3>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◷
+                                    </span>
+
+                                    <span
+                                        data-en="10:00 AM – 12:00 PM"
+                                        data-kn="ಬೆಳಿಗ್ಗೆ 10:00 – ಮಧ್ಯಾಹ್ನ 12:00"
+                                    >
+                                        10:00 AM – 12:00 PM
+                                    </span>
+
+                                </div>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◉
+                                    </span>
+
+                                    <span
+                                        data-en="JSS College, Mysuru"
+                                        data-kn="ಜೆಎಸ್ಎಸ್ ಕಾಲೇಜು, ಮೈಸೂರು"
+                                    >
+                                        JSS College, Mysuru
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- SPEAKER IMAGE -->
+
+                            <div class="event-speaker-image">
+
+                                <img
+                                    src="assets/event-speaker-1.png"
+                                    alt="Communication Coach"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-bottom">
+
+                            <div class="event-speaker-name">
+
+                                <strong
+                                    data-en="Mr. Raghavendra"
+                                    data-kn="ಶ್ರೀ ರಾಘವೇಂದ್ರ"
+                                >
+                                    Mr. Raghavendra
+                                </strong>
+
+                                <span
+                                    data-en="Communication Coach"
+                                    data-kn="ಸಂವಹನ ತರಬೇತುದಾರ"
+                                >
+                                    Communication Coach
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-tags">
+
+                                <span
+                                    data-en="Students"
+                                    data-kn="ವಿದ್ಯಾರ್ಥಿಗಳು"
+                                >
+                                    Students
+                                </span>
+
+                                <span
+                                    data-en="Talk Session"
+                                    data-kn="ಮಾತುಕತೆ ಕಾರ್ಯಕ್ರಮ"
+                                >
+                                    Talk Session
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         EVENT 2
+                    ================================================= -->
+
+                    <article class="event-card">
+
+                        <div class="event-card-top">
+
+
+                            <div class="event-date">
+
+                                <strong>
+                                    12
+                                </strong>
+
+                                <span>
+                                    OCT
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-main-info">
+
+                                <h3
+                                    data-en="Leadership in Real Life"
+                                    data-kn="ನೈಜ ಜೀವನದಲ್ಲಿ ನಾಯಕತ್ವ"
+                                >
+                                    Leadership
+                                    <br>
+                                    in Real Life
+                                </h3>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◷
+                                    </span>
+
+                                    <span
+                                        data-en="02:00 PM – 04:00 PM"
+                                        data-kn="ಮಧ್ಯಾಹ್ನ 02:00 – ಸಂಜೆ 04:00"
+                                    >
+                                        02:00 PM – 04:00 PM
+                                    </span>
+
+                                </div>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◉
+                                    </span>
+
+                                    <span
+                                        data-en="ATME College, Mysuru"
+                                        data-kn="ಎಟಿಎಂಇ ಕಾಲೇಜು, ಮೈಸೂರು"
+                                    >
+                                        ATME College, Mysuru
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="event-speaker-image">
+
+                                <img
+                                    src="assets/event-speaker-2.png"
+                                    alt="Leadership Consultant"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-bottom">
+
+                            <div class="event-speaker-name">
+
+                                <strong
+                                    data-en="Ms. Sneha Prakash"
+                                    data-kn="ಶ್ರೀಮತಿ ಸ್ನೇಹಾ ಪ್ರಕಾಶ್"
+                                >
+                                    Ms. Sneha Prakash
+                                </strong>
+
+                                <span
+                                    data-en="Leadership Consultant"
+                                    data-kn="ನಾಯಕತ್ವ ಸಲಹೆಗಾರ್ತಿ"
+                                >
+                                    Leadership Consultant
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-tags">
+
+                                <span
+                                    data-en="Professionals"
+                                    data-kn="ವೃತ್ತಿಪರರು"
+                                >
+                                    Professionals
+                                </span>
+
+                                <span
+                                    data-en="Panel Discussion"
+                                    data-kn="ಪ್ಯಾನಲ್ ಚರ್ಚೆ"
+                                >
+                                    Panel Discussion
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         EVENT 3
+                    ================================================= -->
+
+                    <article class="event-card">
+
+                        <div class="event-card-top">
+
+
+                            <div class="event-date">
+
+                                <strong>
+                                    25
+                                </strong>
+
+                                <span>
+                                    OCT
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-main-info">
+
+                                <h3
+                                    data-en="Future Skills for Young Minds"
+                                    data-kn="ಯುವ ಮನಸ್ಸುಗಳಿಗಾಗಿ ಭವಿಷ್ಯದ ಕೌಶಲ್ಯಗಳು"
+                                >
+                                    Future Skills
+                                    <br>
+                                    for Young Minds
+                                </h3>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◷
+                                    </span>
+
+                                    <span
+                                        data-en="10:00 AM – 01:00 PM"
+                                        data-kn="ಬೆಳಿಗ್ಗೆ 10:00 – ಮಧ್ಯಾಹ್ನ 01:00"
+                                    >
+                                        10:00 AM – 01:00 PM
+                                    </span>
+
+                                </div>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◉
+                                    </span>
+
+                                    <span
+                                        data-en="Online (Zoom)"
+                                        data-kn="ಆನ್‌ಲೈನ್ (Zoom)"
+                                    >
+                                        Online (Zoom)
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="event-speaker-image">
+
+                                <img
+                                    src="assets/event-speaker-3.png"
+                                    alt="Technology Professional"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-bottom">
+
+                            <div class="event-speaker-name">
+
+                                <strong
+                                    data-en="Mr. Arjun Rao"
+                                    data-kn="ಶ್ರೀ ಅರ್ಜುನ್ ರಾವ್"
+                                >
+                                    Mr. Arjun Rao
+                                </strong>
+
+                                <span
+                                    data-en="Tech Professional"
+                                    data-kn="ತಂತ್ರಜ್ಞಾನ ವೃತ್ತಿಪರ"
+                                >
+                                    Tech Professional
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-tags">
+
+                                <span
+                                    data-en="Students"
+                                    data-kn="ವಿದ್ಯಾರ್ಥಿಗಳು"
+                                >
+                                    Students
+                                </span>
+
+                                <span
+                                    data-en="Expert Talk"
+                                    data-kn="ತಜ್ಞರ ಮಾತುಕತೆ"
+                                >
+                                    Expert Talk
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         EVENT 4
+                    ================================================= -->
+
+                    <article class="event-card">
+
+                        <div class="event-card-top">
+
+
+                            <div class="event-date">
+
+                                <strong>
+                                    08
+                                </strong>
+
+                                <span>
+                                    NOV
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-main-info">
+
+                                <h3
+                                    data-en="Building Confidence"
+                                    data-kn="ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಬೆಳೆಸುವುದು"
+                                >
+                                    Building
+                                    <br>
+                                    Confidence
+                                </h3>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◷
+                                    </span>
+
+                                    <span
+                                        data-en="11:00 AM – 01:00 PM"
+                                        data-kn="ಬೆಳಿಗ್ಗೆ 11:00 – ಮಧ್ಯಾಹ್ನ 01:00"
+                                    >
+                                        11:00 AM – 01:00 PM
+                                    </span>
+
+                                </div>
+
+
+                                <div class="event-meta">
+
+                                    <span>
+                                        ◉
+                                    </span>
+
+                                    <span
+                                        data-en="Mysuru"
+                                        data-kn="ಮೈಸೂರು"
+                                    >
+                                        Mysuru
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="event-speaker-image">
+
+                                <img
+                                    src="assets/event-speaker-4.png"
+                                    alt="Guest Speaker"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-bottom">
+
+                            <div class="event-speaker-name">
+
+                                <strong
+                                    data-en="Guest Speaker"
+                                    data-kn="ಅತಿಥಿ ವಕ್ತಾರರು"
+                                >
+                                    Guest Speaker
+                                </strong>
+
+                                <span
+                                    data-en="Motivational Speaker"
+                                    data-kn="ಪ್ರೇರಣಾದಾಯಕ ವಕ್ತಾರರು"
+                                >
+                                    Motivational Speaker
+                                </span>
+
+                            </div>
+
+
+                            <div class="event-tags">
+
+                                <span
+                                    data-en="Open for All"
+                                    data-kn="ಎಲ್ಲರಿಗೂ ಮುಕ್ತ"
+                                >
+                                    Open for All
+                                </span>
+
+                                <span
+                                    data-en="Talk Session"
+                                    data-kn="ಮಾತುಕತೆ ಕಾರ್ಯಕ್ರಮ"
+                                >
+                                    Talk Session
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- MOBILE SWIPE HINT -->
+
+            <div class="events-swipe-hint">
+
+                <span>←</span>
+
+                <span
+                    data-en="Swipe to explore events"
+                    data-kn="ಈವೆಂಟ್ಸ್ ನೋಡಲು ಸ್ವೈಪ್ ಮಾಡಿ"
+                >
+                    Swipe to explore events
+                </span>
+
+                <span>→</span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+        </section>
+
+
+    <!-- =====================================================
+         PAST EVENTS SECTION
+    ===================================================== -->
+
+    <section
+        class="past-events-section"
+        id="past-events"
+    >
+
+        <div class="past-events-container">
+
+
+            <!-- =================================================
+                 PAST EVENTS HEADER
+            ================================================= -->
+
+            <div class="past-events-header">
+
+                <div class="past-events-heading">
+
+                    <div class="past-events-title-row">
+
+                        <span class="past-events-yellow-line"></span>
+
+                        <h2
+                            data-en="PAST EVENTS"
+                            data-kn="ಈಗಾಗಲೇ ನಡೆದ ಈವೆಂಟ್ಸ್"
+                        >
+                            PAST EVENTS
+                        </h2>
+
+                    </div>
+
+
+                    <p
+                        data-en="Explore conversations, sessions and moments from our previous events."
+                        data-kn="ನಮ್ಮ ಹಿಂದಿನ ಈವೆಂಟ್ಸ್‌ನ ಸಂವಾದಗಳು, ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ವಿಶೇಷ ಕ್ಷಣಗಳನ್ನು ನೋಡಿ."
+                    >
+                        Explore conversations, sessions and moments from our previous events.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="#past-events"
+                    class="view-all-past-events"
+                >
+
+                    <span
+                        data-en="View All Events"
+                        data-kn="ಎಲ್ಲಾ ಈವೆಂಟ್ಸ್ ನೋಡಿ"
+                    >
+                        View All Events
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <!-- =================================================
+                 PAST EVENT CARDS
+            ================================================= -->
+
+            <div class="past-events-scroll-wrapper">
+
+                <div class="past-events-grid">
+
+
+                    <!-- =================================================
+                         PAST EVENT 1
+                    ================================================= -->
+
+                    <article class="past-event-card">
+
+                        <div class="past-event-image">
+
+                            <img
+                                src="assets/event-speaker-1.png"
+                                alt="Communication Event"
+                            >
+
+                        </div>
+
+
+                        <div class="past-event-content">
+
+                            <span
+                                class="past-event-status"
+                                data-en="COMPLETED"
+                                data-kn="ಪೂರ್ಣಗೊಂಡಿದೆ"
+                            >
+                                COMPLETED
+                            </span>
+
+
+                            <h3
+                                data-en="Communication for Career Success"
+                                data-kn="ವೃತ್ತಿ ಯಶಸ್ಸಿಗಾಗಿ ಸಂವಹನ"
+                            >
+                                Communication for Career Success
+                            </h3>
+
+
+                            <p
+                                data-en="JSS College, Mysuru"
+                                data-kn="ಜೆಎಸ್ಎಸ್ ಕಾಲೇಜು, ಮೈಸೂರು"
+                            >
+                                JSS College, Mysuru
+                            </p>
+
+
+                            <span
+                                class="past-event-date"
+                                data-en="28 Sep 2026"
+                                data-kn="28 ಸೆಪ್ಟೆಂಬರ್ 2026"
+                            >
+                                28 Sep 2026
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         PAST EVENT 2
+                    ================================================= -->
+
+                    <article class="past-event-card">
+
+                        <div class="past-event-image">
+
+                            <img
+                                src="assets/event-speaker-2.png"
+                                alt="Leadership Event"
+                            >
+
+                        </div>
+
+
+                        <div class="past-event-content">
+
+                            <span
+                                class="past-event-status"
+                                data-en="COMPLETED"
+                                data-kn="ಪೂರ್ಣಗೊಂಡಿದೆ"
+                            >
+                                COMPLETED
+                            </span>
+
+
+                            <h3
+                                data-en="Leadership in Real Life"
+                                data-kn="ನೈಜ ಜೀವನದಲ್ಲಿ ನಾಯಕತ್ವ"
+                            >
+                                Leadership in Real Life
+                            </h3>
+
+
+                            <p
+                                data-en="ATME College, Mysuru"
+                                data-kn="ಎಟಿಎಂಇ ಕಾಲೇಜು, ಮೈಸೂರು"
+                            >
+                                ATME College, Mysuru
+                            </p>
+
+
+                            <span
+                                class="past-event-date"
+                                data-en="12 Oct 2026"
+                                data-kn="12 ಅಕ್ಟೋಬರ್ 2026"
+                            >
+                                12 Oct 2026
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         PAST EVENT 3
+                    ================================================= -->
+
+                    <article class="past-event-card">
+
+                        <div class="past-event-image">
+
+                            <img
+                                src="assets/event-speaker-3.png"
+                                alt="Future Skills Event"
+                            >
+
+                        </div>
+
+
+                        <div class="past-event-content">
+
+                            <span
+                                class="past-event-status"
+                                data-en="COMPLETED"
+                                data-kn="ಪೂರ್ಣಗೊಂಡಿದೆ"
+                            >
+                                COMPLETED
+                            </span>
+
+
+                            <h3
+                                data-en="Future Skills for Young Minds"
+                                data-kn="ಯುವ ಮನಸ್ಸುಗಳಿಗಾಗಿ ಭವಿಷ್ಯದ ಕೌಶಲ್ಯಗಳು"
+                            >
+                                Future Skills for Young Minds
+                            </h3>
+
+
+                            <p
+                                data-en="Online (Zoom)"
+                                data-kn="ಆನ್‌ಲೈನ್ (Zoom)"
+                            >
+                                Online (Zoom)
+                            </p>
+
+
+                            <span
+                                class="past-event-date"
+                                data-en="25 Oct 2026"
+                                data-kn="25 ಅಕ್ಟೋಬರ್ 2026"
+                            >
+                                25 Oct 2026
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         PAST EVENT 4
+                    ================================================= -->
+
+                    <article class="past-event-card">
+
+                        <div class="past-event-image">
+
+                            <img
+                                src="assets/event-speaker-4.png"
+                                alt="Confidence Event"
+                            >
+
+                        </div>
+
+
+                        <div class="past-event-content">
+
+                            <span
+                                class="past-event-status"
+                                data-en="COMPLETED"
+                                data-kn="ಪೂರ್ಣಗೊಂಡಿದೆ"
+                            >
+                                COMPLETED
+                            </span>
+
+
+                            <h3
+                                data-en="Building Confidence"
+                                data-kn="ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಬೆಳೆಸುವುದು"
+                            >
+                                Building Confidence
+                            </h3>
+
+
+                            <p
+                                data-en="Mysuru"
+                                data-kn="ಮೈಸೂರು"
+                            >
+                                Mysuru
+                            </p>
+
+
+                            <span
+                                class="past-event-date"
+                                data-en="08 Nov 2026"
+                                data-kn="08 ನವೆಂಬರ್ 2026"
+                            >
+                                08 Nov 2026
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- MOBILE SWIPE HINT -->
+
+            <div class="past-events-swipe-hint">
+
+                <span>←</span>
+
+                <span
+                    data-en="Swipe to explore past events"
+                    data-kn="ಹಿಂದಿನ ಈವೆಂಟ್ಸ್ ನೋಡಲು ಸ್ವೈಪ್ ಮಾಡಿ"
+                >
+                    Swipe to explore past events
+                </span>
+
+                <span>→</span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         UPCOMING PODCAST SECTION
+    ===================================================== -->
+
+    <section
+        class="podcast-section"
+        id="podcast"
+    >
+
+        <div class="podcast-container">
+
+
+            <!-- =================================================
+                 PODCAST HEADER
+            ================================================= -->
+
+            <div class="podcast-header">
+
+                <div class="podcast-heading">
+
+                    <div class="podcast-title-row">
+
+                        <span class="podcast-yellow-line"></span>
+
+                        <div>
+
+                            <h2
+                                data-en="UPCOMING PODCAST"
+                                data-kn="ಬರುವ ಪಾಡ್‌ಕಾಸ್ಟ್"
+                            >
+                                UPCOMING PODCAST
+                            </h2>
+
+                            <p
+                                data-en="Real conversations with changemakers."
+                                data-kn="ಬದಲಾವಣೆಯನ್ನು ತರುವವರೊಂದಿಗೆ ನಿಜವಾದ ಸಂವಾದಗಳು."
+                            >
+                                Real conversations with changemakers.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIEW ALL -->
+
+                <a
+                    href="#podcast"
+                    class="view-all-podcast"
+                >
+
+                    <span
+                        data-en="View All Episodes"
+                        data-kn="ಎಲ್ಲಾ ಎಪಿಸೋಡ್‌ಗಳು ನೋಡಿ"
+                    >
+                        View All Episodes
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PODCAST CARDS
+            ================================================= -->
+
+            <div class="podcast-scroll-wrapper">
+
+                <div class="podcast-grid">
+
+
+                    <!-- =================================================
+                         EPISODE 12
+                    ================================================= -->
+
+                    <article class="podcast-card">
+
+                        <img
+                            src="assets/podcast-episode-12.png"
+                            alt="From Campus to Career"
+                            class="podcast-image"
+                        >
+
+                        <div class="podcast-overlay"></div>
+
+
+                        <div class="podcast-card-content">
+
+                            <div class="podcast-title">
+
+                                <h3
+                                    data-en="From Campus to Career"
+                                    data-kn="ಕ್ಯಾಂಪಸ್‌ನಿಂದ ವೃತ್ತಿಜೀವನಕ್ಕೆ"
+                                >
+                                    From Campus<br>
+                                    <span>to Career</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #12"
+                                    data-kn="ಎಪಿಸೋಡ್ #12"
+                                >
+                                    Episode #12
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="podcast-duration"
+                            >
+                                38:24
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="podcast-play"
+                            type="button"
+                            aria-label="Play Episode 12"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         EPISODE 11
+                    ================================================= -->
+
+                    <article class="podcast-card">
+
+                        <img
+                            src="assets/podcast-episode-11.png"
+                            alt="Mindset for Success"
+                            class="podcast-image"
+                        >
+
+                        <div class="podcast-overlay"></div>
+
+
+                        <div class="podcast-card-content">
+
+                            <div class="podcast-title">
+
+                                <h3
+                                    data-en="Mindset for Success"
+                                    data-kn="ಯಶಸ್ಸಿನ ಮನೋಭಾವ"
+                                >
+                                    Mindset<br>
+                                    <span>for Success</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #11"
+                                    data-kn="ಎಪಿಸೋಡ್ #11"
+                                >
+                                    Episode #11
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="podcast-duration"
+                            >
+                                42:17
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="podcast-play"
+                            type="button"
+                            aria-label="Play Episode 11"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         EPISODE 10
+                    ================================================= -->
+
+                    <article class="podcast-card">
+
+                        <img
+                            src="assets/podcast-episode-10.png"
+                            alt="The Future of Work"
+                            class="podcast-image"
+                        >
+
+                        <div class="podcast-overlay"></div>
+
+
+                        <div class="podcast-card-content">
+
+                            <div class="podcast-title">
+
+                                <h3
+                                    data-en="The Future of Work"
+                                    data-kn="ಭವಿಷ್ಯದ ಕೆಲಸದ ಜಗತ್ತು"
+                                >
+                                    The Future<br>
+                                    <span>of Work</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #10"
+                                    data-kn="ಎಪಿಸೋಡ್ #10"
+                                >
+                                    Episode #10
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="podcast-duration"
+                            >
+                                35:08
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="podcast-play"
+                            type="button"
+                            aria-label="Play Episode 10"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        </section>
+
+
+    <!-- =====================================================
+         PAST PODCAST SECTION
+    ===================================================== -->
+
+    <section
+        class="past-podcast-section"
+    >
+
+        <div class="past-podcast-container">
+
+
+            <!-- =================================================
+                 PAST PODCAST HEADER
+            ================================================= -->
+
+            <div class="past-podcast-header">
+
+                <div class="past-podcast-heading">
+
+                    <div class="past-podcast-title-row">
+
+                        <span
+                            class="past-podcast-yellow-line"
+                        ></span>
+
+                        <div>
+
+                            <h2
+                                data-en="PAST PODCAST"
+                                data-kn="ಹಿಂದಿನ ಪಾಡ್‌ಕಾಸ್ಟ್"
+                            >
+                                PAST PODCAST
+                            </h2>
+
+                            <p
+                                data-en="Conversations worth listening to again."
+                                data-kn="ಮತ್ತೆ ಮತ್ತೆ ಕೇಳಲು ಯೋಗ್ಯವಾದ ಸಂವಾದಗಳು."
+                            >
+                                Conversations worth listening to again.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIEW ALL -->
+
+                <a
+                    href="#podcast"
+                    class="view-all-past-podcast"
+                >
+
+                    <span
+                        data-en="View All Episodes"
+                        data-kn="ಎಲ್ಲಾ ಎಪಿಸೋಡ್‌ಗಳು ನೋಡಿ"
+                    >
+                        View All Episodes
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PAST PODCAST CARDS
+            ================================================= -->
+
+            <div class="past-podcast-scroll-wrapper">
+
+                <div class="past-podcast-grid">
+
+
+                    <!-- =================================================
+                         PAST EPISODE 09
+                    ================================================= -->
+
+                    <article
+                        class="past-podcast-card"
+                    >
+
+                        <img
+                            src="assets/podcast-episode-09.png"
+                            alt="Building Confidence"
+                            class="past-podcast-image"
+                        >
+
+                        <div
+                            class="past-podcast-overlay"
+                        ></div>
+
+
+                        <span
+                            class="past-podcast-status"
+                            data-en="LISTENED"
+                            data-kn="ಕೇಳಲಾಗಿದೆ"
+                        >
+                            LISTENED
+                        </span>
+
+
+                        <div
+                            class="past-podcast-content"
+                        >
+
+                            <div
+                                class="past-podcast-title"
+                            >
+
+                                <h3
+                                    data-en="Building Confidence"
+                                    data-kn="ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಬೆಳೆಸುವುದು"
+                                >
+                                    Building<br>
+                                    <span>Confidence</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #09"
+                                    data-kn="ಎಪಿಸೋಡ್ #09"
+                                >
+                                    Episode #09
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="past-podcast-duration"
+                            >
+                                36:42
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="past-podcast-play"
+                            type="button"
+                            aria-label="Play Episode 9"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         PAST EPISODE 08
+                    ================================================= -->
+
+                    <article
+                        class="past-podcast-card"
+                    >
+
+                        <img
+                            src="assets/podcast-episode-08.png"
+                            alt="Career Beyond Campus"
+                            class="past-podcast-image"
+                        >
+
+                        <div
+                            class="past-podcast-overlay"
+                        ></div>
+
+
+                        <span
+                            class="past-podcast-status"
+                            data-en="LISTENED"
+                            data-kn="ಕೇಳಲಾಗಿದೆ"
+                        >
+                            LISTENED
+                        </span>
+
+
+                        <div
+                            class="past-podcast-content"
+                        >
+
+                            <div
+                                class="past-podcast-title"
+                            >
+
+                                <h3
+                                    data-en="Career Beyond Campus"
+                                    data-kn="ಕ್ಯಾಂಪಸ್‌ನಾಚೆಗಿನ ವೃತ್ತಿಜೀವನ"
+                                >
+                                    Career<br>
+                                    <span>Beyond Campus</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #08"
+                                    data-kn="ಎಪಿಸೋಡ್ #08"
+                                >
+                                    Episode #08
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="past-podcast-duration"
+                            >
+                                41:18
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="past-podcast-play"
+                            type="button"
+                            aria-label="Play Episode 8"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         PAST EPISODE 07
+                    ================================================= -->
+
+                    <article
+                        class="past-podcast-card"
+                    >
+
+                        <img
+                            src="assets/podcast-episode-07.png"
+                            alt="The Power of Communication"
+                            class="past-podcast-image"
+                        >
+
+                        <div
+                            class="past-podcast-overlay"
+                        ></div>
+
+
+                        <span
+                            class="past-podcast-status"
+                            data-en="LISTENED"
+                            data-kn="ಕೇಳಲಾಗಿದೆ"
+                        >
+                            LISTENED
+                        </span>
+
+
+                        <div
+                            class="past-podcast-content"
+                        >
+
+                            <div
+                                class="past-podcast-title"
+                            >
+
+                                <h3
+                                    data-en="The Power of Communication"
+                                    data-kn="ಸಂವಹನದ ಶಕ್ತಿ"
+                                >
+                                    The Power of<br>
+                                    <span>Communication</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #07"
+                                    data-kn="ಎಪಿಸೋಡ್ #07"
+                                >
+                                    Episode #07
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="past-podcast-duration"
+                            >
+                                39:55
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="past-podcast-play"
+                            type="button"
+                            aria-label="Play Episode 7"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- =================================================
+                         PAST EPISODE 06
+                    ================================================= -->
+
+                    <article
+                        class="past-podcast-card"
+                    >
+
+                        <img
+                            src="assets/podcast-episode-06.png"
+                            alt="Learning from Failure"
+                            class="past-podcast-image"
+                        >
+
+                        <div
+                            class="past-podcast-overlay"
+                        ></div>
+
+
+                        <span
+                            class="past-podcast-status"
+                            data-en="LISTENED"
+                            data-kn="ಕೇಳಲಾಗಿದೆ"
+                        >
+                            LISTENED
+                        </span>
+
+
+                        <div
+                            class="past-podcast-content"
+                        >
+
+                            <div
+                                class="past-podcast-title"
+                            >
+
+                                <h3
+                                    data-en="Learning from Failure"
+                                    data-kn="ವೈಫಲ್ಯದಿಂದ ಕಲಿಯುವುದು"
+                                >
+                                    Learning from<br>
+                                    <span>Failure</span>
+                                </h3>
+
+                                <p
+                                    data-en="Episode #06"
+                                    data-kn="ಎಪಿಸೋಡ್ #06"
+                                >
+                                    Episode #06
+                                </p>
+
+                            </div>
+
+
+                            <span
+                                class="past-podcast-duration"
+                            >
+                                34:27
+                            </span>
+
+                        </div>
+
+
+                        <button
+                            class="past-podcast-play"
+                            type="button"
+                            aria-label="Play Episode 6"
+                        >
+                            ▶
+                        </button>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+<!-- =====================================================
+     CLIENT TESTIMONIALS
+===================================================== -->
+
+<section
+    class="testimonials-section"
+    id="testimonials"
+>
+
+    <div class="testimonials-container">
+
+
+        <!-- =================================================
+             HEADER
+        ================================================== -->
+
+        <div class="testimonials-header">
+
+            <div class="testimonials-heading">
+
+                <div class="testimonials-title-row">
+
+                    <span
+                        class="testimonials-yellow-line"
+                    ></span>
+
+                    <div>
+
+                        <h2
+                            data-en="WHAT PEOPLE SAY"
+                            data-kn="ಜನರು ಏನು ಹೇಳುತ್ತಾರೆ"
+                        >
+                            WHAT PEOPLE SAY
+                        </h2>
+
+                        <p
+                            data-en="Real stories. Real impact."
+                            data-kn="ನೈಜ ಕಥೆಗಳು. ನೈಜ ಪರಿಣಾಮ."
+                        >
+                            Real stories. Real impact.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- VIEW ALL -->
+
+            <a
+                href="#testimonials"
+                class="view-all-testimonials"
+            >
+
+                <span
+                    data-en="View All Testimonials"
+                    data-kn="ಎಲ್ಲಾ ಪ್ರಶಂಸಾಪತ್ರಗಳನ್ನು ನೋಡಿ"
+                >
+                    View All Testimonials
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- =================================================
+             TESTIMONIAL CARDS
+        ================================================== -->
+
+        <div class="testimonials-scroll-wrapper">
+
+            <div class="testimonials-grid">
+
+
+                <!-- =================================================
+                     TESTIMONIAL 1
+                ================================================== -->
+
+                <article
+                    class="testimonial-card"
+                >
+
+                    <div class="testimonial-person">
+
+                        <img
+                            src="assets/testimonial-ananya.png"
+                            alt="Ananya S."
+                            class="testimonial-avatar"
+                        >
+
+                    </div>
+
+
+                    <div class="testimonial-content">
+
+                        <p
+                            class="testimonial-quote"
+                            data-en="“mPowerTalk helped me speak with confidence.”"
+                            data-kn="“mPowerTalk ನನಗೆ ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ಮಾತನಾಡಲು ಸಹಾಯ ಮಾಡಿತು.”"
+                        >
+                            “mPowerTalk helped me
+                            speak with confidence.”
+                        </p>
+
+
+                        <p
+                            class="testimonial-quote-kn"
+                            data-en="“mPowerTalk sessions helped me become more confident.”"
+                            data-kn="“mPowerTalk ಸೆಷನ್‌ಗಳು ನನಗೆ ಹೆಚ್ಚು ಆತ್ಮವಿಶ್ವಾಸ ಹೊಂದಲು ಸಹಾಯ ಮಾಡಿದವು.”"
+                        >
+                            “mPowerTalk sessions helped
+                            me become more confident.”
+                        </p>
+
+
+                        <h3
+                            data-en="Ananya S."
+                            data-kn="ಅನನ್ಯಾ ಎಸ್."
+                        >
+                            Ananya S.
+                        </h3>
+
+
+                        <span
+                            data-en="Engineering Student"
+                            data-kn="ಎಂಜಿನಿಯರಿಂಗ್ ವಿದ್ಯಾರ್ಥಿನಿ"
+                        >
+                            Engineering Student
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     TESTIMONIAL 2
+                ================================================== -->
+
+                <article
+                    class="testimonial-card"
+                >
+
+                    <div class="testimonial-person">
+
+                        <img
+                            src="assets/testimonial-rohit.png"
+                            alt="Rohit K."
+                            class="testimonial-avatar"
+                        >
+
+                    </div>
+
+
+                    <div class="testimonial-content">
+
+                        <p
+                            class="testimonial-quote"
+                            data-en="“Very useful and practical sessions.”"
+                            data-kn="“ತುಂಬಾ ಉಪಯುಕ್ತ ಮತ್ತು ಪ್ರಾಯೋಗಿಕ ಸೆಷನ್‌ಗಳು.”"
+                        >
+                            “Very useful and
+                            practical sessions.”
+                        </p>
+
+
+                        <p
+                            class="testimonial-quote-kn"
+                            data-en="“The sessions gave me useful ideas that I can apply in real life.”"
+                            data-kn="“ಈ ಸೆಷನ್‌ಗಳು ನಿಜ ಜೀವನದಲ್ಲಿ ಬಳಸಬಹುದಾದ ಉಪಯುಕ್ತ ವಿಚಾರಗಳನ್ನು ನೀಡಿದವು.”"
+                        >
+                            “The sessions gave me
+                            useful ideas to apply.”
+                        </p>
+
+
+                        <h3
+                            data-en="Rohit K."
+                            data-kn="ರೋಹಿತ್ ಕೆ."
+                        >
+                            Rohit K.
+                        </h3>
+
+
+                        <span
+                            data-en="Working Professional"
+                            data-kn="ಉದ್ಯೋಗಿ"
+                        >
+                            Working Professional
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     TESTIMONIAL 3
+                ================================================== -->
+
+                <article
+                    class="testimonial-card"
+                >
+
+                    <div class="testimonial-person">
+
+                        <img
+                            src="assets/testimonial-divya.png"
+                            alt="Divya M."
+                            class="testimonial-avatar"
+                        >
+
+                    </div>
+
+
+                    <div class="testimonial-content">
+
+                        <p
+                            class="testimonial-quote"
+                            data-en="“Great platform for real learning and networking.”"
+                            data-kn="“ನೈಜ ಕಲಿಕೆ ಮತ್ತು ನೆಟ್‌ವರ್ಕಿಂಗ್‌ಗೆ ಉತ್ತಮ ವೇದಿಕೆ.”"
+                        >
+                            “Great platform for real
+                            learning and networking.”
+                        </p>
+
+
+                        <p
+                            class="testimonial-quote-kn"
+                            data-en="“mPowerTalk helped me connect with inspiring people.”"
+                            data-kn="“mPowerTalk ನನಗೆ ಪ್ರೇರಣಾದಾಯಕ ಜನರೊಂದಿಗೆ ಸಂಪರ್ಕ ಬೆಳೆಸಲು ಸಹಾಯ ಮಾಡಿತು.”"
+                        >
+                            “mPowerTalk helped me
+                            connect with inspiring people.”
+                        </p>
+
+
+                        <h3
+                            data-en="Divya M."
+                            data-kn="ದಿವ್ಯಾ ಎಂ."
+                        >
+                            Divya M.
+                        </h3>
+
+
+                        <span
+                            data-en="College Student"
+                            data-kn="ಕಾಲೇಜು ವಿದ್ಯಾರ್ಥಿನಿ"
+                        >
+                            College Student
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     TESTIMONIAL 4
+                ================================================== -->
+
+                <article
+                    class="testimonial-card"
+                >
+
+                    <div class="testimonial-person">
+
+                        <img
+                            src="assets/testimonial-arjun.png"
+                            alt="Arjun P."
+                            class="testimonial-avatar"
+                        >
+
+                    </div>
+
+
+                    <div class="testimonial-content">
+
+                        <p
+                            class="testimonial-quote"
+                            data-en="“Every session gave me something new to learn.”"
+                            data-kn="“ಪ್ರತಿ ಸೆಷನ್‌ನಲ್ಲೂ ಹೊಸದನ್ನು ಕಲಿಯಲು ಸಾಧ್ಯವಾಯಿತು.”"
+                        >
+                            “Every session gave me
+                            something new to learn.”
+                        </p>
+
+
+                        <p
+                            class="testimonial-quote-kn"
+                            data-en="“The conversations were simple, useful and inspiring.”"
+                            data-kn="“ಸಂವಾದಗಳು ಸರಳ, ಉಪಯುಕ್ತ ಮತ್ತು ಪ್ರೇರಣಾದಾಯಕವಾಗಿದ್ದವು.”"
+                        >
+                            “The conversations were
+                            simple and inspiring.”
+                        </p>
+
+
+                        <h3
+                            data-en="Arjun P."
+                            data-kn="ಅರ್ಜುನ್ ಪಿ."
+                        >
+                            Arjun P.
+                        </h3>
+
+
+                        <span
+                            data-en="Young Professional"
+                            data-kn="ಯುವ ವೃತ್ತಿಪರ"
+                        >
+                            Young Professional
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     CLIENT COMPANIES
+===================================================== -->
+
+<section class="client-companies-section" id="companies">
+
+    <div class="client-companies-container">
+
+        <div class="client-companies-header">
+
+            <div class="client-companies-title-row">
+
+                <span class="client-companies-yellow-line"></span>
+
+                <div>
+                    <h2
+                        data-en="OUR CLIENT COMPANIES"
+                        data-kn="ನಮ್ಮ ಕ್ಲೈಂಟ್ ಸಂಸ್ಥೆಗಳು"
+                    >
+                        OUR CLIENT COMPANIES
+                    </h2>
+
+                    <p
+                        data-en="Trusted by Mysuru's growing brands and organisations."
+                        data-kn="ಮೈಸೂರಿನ ಬೆಳೆಯುತ್ತಿರುವ ಬ್ರ್ಯಾಂಡ್‌ಗಳು ಮತ್ತು ಸಂಸ್ಥೆಗಳ ವಿಶ್ವಾಸ."
+                    >
+                        Trusted by Mysuru's growing brands and organisations.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- AUTO MOVING LOGOS -->
+
+        <div class="client-companies-marquee">
+
+            <div class="client-companies-track">
+
+                <!-- SET 1 -->
+
+                <div class="client-company-card">
+                    <img
+                        src="assets/company-grs.png"
+                        alt="GRS"
+                    >
+                </div>
+
+                <div class="client-company-card">
+                    <img
+                        src="assets/company-kreatment-events.png"
+                        alt="Kreatment Events"
+                    >
+                </div>
+
+                <div class="client-company-card">
+                    <img
+                        src="assets/company-ask-mysuru.png"
+                        alt="Ask Mysuru"
+                    >
+                </div>
+
+
+                <!-- SET 2 - DUPLICATE FOR LOOP -->
+
+                <div class="client-company-card">
+                    <img
+                        src="assets/company-grs.png"
+                        alt="GRS"
+                    >
+                </div>
+
+                <div class="client-company-card">
+                    <img
+                        src="assets/company-kreatment-events.png"
+                        alt="Kreatment Events"
+                    >
+                </div>
+
+                <div class="client-company-card">
+                    <img
+                        src="assets/company-ask-mysuru.png"
+                        alt="Ask Mysuru"
+                    >
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     LET'S TALK / CONTACT CTA
+===================================================== -->
+
+<section class="talk-cta-section" id="contact">
+
+    <div class="talk-cta-container">
+
+        <!-- LEFT -->
+        <div class="talk-cta-content">
+
+            <div class="talk-cta-title">
+
+                <h2
+                    data-en="Let's Talk"
+                    data-kn="ನಮ್ಮೊಂದಿಗೆ ಮಾತನಾಡೋಣ"
+                >
+                    Let's Talk
+                </h2>
+
+                <div class="talk-cta-kannada-line">
+                    <span></span>
+                    <p
+                        data-en="Let's connect and create something meaningful."
+                        data-kn="ಒಟ್ಟಾಗಿ ಸಂಪರ್ಕಿಸಿ, ಅರ್ಥಪೂರ್ಣವಾದುದನ್ನು ಸೃಷ್ಟಿಸೋಣ."
+                    >
+                        Let's connect and create something meaningful.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MIDDLE -->
+        <div class="talk-cta-message">
+
+            <p
+                data-en="Have a question? Want to bring mPowerTalk to your college or company?"
+                data-kn="ಯಾವುದೇ ಪ್ರಶ್ನೆ ಇದೆಯೇ? ನಿಮ್ಮ ಕಾಲೇಜು ಅಥವಾ ಕಂಪನಿಗೆ mPowerTalk ಅನ್ನು ತರಲು ಬಯಸುವಿರಾ?"
+            >
+                Have a question? Want to bring mPowerTalk to your college or company?
+            </p>
+
+            <span
+                data-en="We'd love to hear from you and explore how we can work together."
+                data-kn="ನಿಮ್ಮ ಮಾತು ಕೇಳಲು ಮತ್ತು ಒಟ್ಟಾಗಿ ಹೇಗೆ ಕೆಲಸ ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಚರ್ಚಿಸಲು ನಾವು ಸಂತೋಷಪಡುತ್ತೇವೆ."
+            >
+                We'd love to hear from you and explore how we can work together.
+            </span>
+
+        </div>
+
+
+        <!-- WHATSAPP -->
+        <a
+            href="https://wa.me/919886756745?text=Hi%20mPowerTalk%2C%20I%20would%20like%20to%20know%20more."
+            class="talk-whatsapp-button"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with mPowerTalk on WhatsApp"
+        >
+
+            <div class="talk-whatsapp-icon">
+
+                <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.7 5.9L.2 24l6.4-1.7c1.7.9 3.6 1.3 5.5 1.3h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.1-3.5-8.3ZM12.1 21.6c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.8 1 1-3.7-.2-.3c-1-1.5-1.5-3.3-1.5-5.1C2.5 6.4 6.8 2 12.1 2c2.6 0 5.1 1 7 2.9 1.9 1.9 2.9 4.4 2.9 7 0 5.3-4.4 9.7-9.9 9.7Zm5.3-7.3c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.7.9-.8 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.7.1-.2 0-.4-.1-.6-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.1 3.1 1.2 3.3c.1.2 2.2 3.4 5.4 4.7 2 .8 2.8.9 3.8.8.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"
+                    />
+                </svg>
+
+            </div>
+
+            <div class="talk-whatsapp-text">
+
+                <strong
+                    data-en="Chat on WhatsApp"
+                    data-kn="WhatsApp ನಲ್ಲಿ ಮಾತನಾಡಿ"
+                >
+                    Chat on WhatsApp
+                </strong>
+
+                <span
+                    data-en="9886756745"
+                    data-kn="9886756745"
+                >
+                    9886756745
+                </span>
+
+            </div>
+
+            <span class="talk-whatsapp-arrow">→</span>
+
+        </a>
+
+
+        <!-- RIGHT -->
+        <div class="talk-response">
+
+            <div class="talk-response-mark">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <strong
+                data-en="Quick Response"
+                data-kn="ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆ"
+            >
+                Quick Response
+            </strong>
+
+            <span
+                data-en="Fast Support"
+                data-kn="ವೇಗದ ಸಹಾಯ"
+            >
+                Fast Support
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="site-footer">
+
+    <div class="footer-main">
+
+        <!-- =================================================
+             LEFT BRAND
+        ================================================== -->
+
+        <div class="footer-brand">
+
+    <img
+        src="assets/mpowertalk-logo.png"
+        alt="mPowerTalk"
+        class="footer-logo"
+    >
+
+    <p
+        class="footer-tagline"
+        data-en="Better conversations. Brighter tomorrows."
+        data-kn="ಉತ್ತಮ ಸಂವಾದಗಳು. ಉಜ್ವಲ ನಾಳೆಗಳು."
+    >
+        Better conversations. Brighter tomorrows.
+    </p>
+
+    <p
+        class="footer-description"
+        data-en="A platform for meaningful conversations, learning experiences and connections that help people grow."
+        data-kn="ಅರ್ಥಪೂರ್ಣ ಸಂವಾದಗಳು, ಕಲಿಕೆಯ ಅನುಭವಗಳು ಮತ್ತು ಜನರು ಬೆಳೆಯಲು ಸಹಾಯ ಮಾಡುವ ಸಂಪರ್ಕಗಳ ವೇದಿಕೆ."
+    >
+        A platform for meaningful conversations,
+        learning experiences and connections
+        that help people grow.
+    </p>
+
+    <div class="footer-socials">
+
+        <!-- WhatsApp -->
+        <a href="#" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.4 1.3h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.5-8.3ZM12.1 21.6c-1.7 0-3.4-.5-4.8-1.4l-.3-.2-3.9 1 1-3.8-.2-.4a9.8 9.8 0 1 1 8.2 4.8Zm5.4-7.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.8-2.8-1.4-3.9-3.2-.3-.5.3-.5.8-1.6.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2 2.2 1 2.2.7 2.6.7.4 0 1.4-.6 1.6-1.1.2-.5.2-1 .2-1.1-.1-.2-.3-.3-.6-.5Z"/>
+            </svg>
+        </a>
+
+        <!-- Instagram -->
+        <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 12 16.5a4.5 4.5 0 0 1 0-9Zm0 2A2.5 2.5 0 1 0 12 14.5a2.5 2.5 0 0 0 0-5Zm5-2.3a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0 2.1Z"/>
+            </svg>
+        </a>
+
+        <!-- Facebook -->
+        <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1V10H8v3h2.4v8h3.1Z"/>
+            </svg>
+        </a>
+
+        <!-- YouTube -->
+        <a href="#" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/>
+            </svg>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M5 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3V9.5Zm6.5 0h3.8v1.6h.1c.5-.9 1.7-1.9 3.6-1.9 3.8 0 4.5 2.5 4.5 5.8V21h-4v-5.3c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21h-3.9V9.5Z"/>
+            </svg>
+        </a>
+
+    </div>
+
+    <div class="footer-brand-phrase">
+        <span>People</span>
+        <span>Ideas</span>
+        <span>Impact</span>
+    </div>
+
+</div>
+
+
+        <!-- =================================================
+             EXPLORE
+        ================================================== -->
+
+        <div class="footer-links">
+
+            <h3
+                data-en="Explore"
+                data-kn="ಅನ್ವೇಷಿಸಿ"
+            >
+                Explore
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a
+                        href="#home"
+                        data-en="Home"
+                        data-kn="ಮುಖಪುಟ"
+                    >
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#about"
+                        data-en="About"
+                        data-kn="ನಮ್ಮ ಬಗ್ಗೆ"
+                    >
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#events"
+                        data-en="Events"
+                        data-kn="ಈವೆಂಟ್ಸ್"
+                    >
+                        Events
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#podcast"
+                        data-en="Podcast"
+                        data-kn="ಪಾಡ್‌ಕಾಸ್ಟ್"
+                    >
+                        Podcast
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- =================================================
+             LET'S TALK
+        ================================================== -->
+
+        <div class="footer-contact">
+
+            <h3
+                data-en="Let's Talk"
+                data-kn="ಮಾತನಾಡೋಣ"
+            >
+                Let's Talk
+            </h3>
+
+            <p
+                data-en="Have an idea, question or want to collaborate?"
+                data-kn="ಯಾವುದೇ ಐಡಿಯಾ, ಪ್ರಶ್ನೆ ಅಥವಾ ಸಹಯೋಗ ಮಾಡಲು ಬಯಸುವಿರಾ?"
+            >
+                Have an idea, question or want
+                to collaborate?
+            </p>
+
+            <a
+                href="#contact"
+                class="footer-contact-button"
+                data-en="Get in Touch →"
+                data-kn="ಸಂಪರ್ಕಿಸಿ →"
+            >
+                Get in Touch →
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             STAY CONNECTED
+        ================================================== -->
+
+        <div class="footer-mini-card">
+
+    <div class="footer-wave"></div>
+
+    <div class="footer-mini-content">
+
+        <span
+            class="footer-mini-label"
+            data-en="STAY CONNECTED"
+            data-kn="ಸಂಪರ್ಕದಲ್ಲಿರಿ"
+        >
+            STAY CONNECTED
+        </span>
+
+        <span
+            class="footer-mini-label footer-mini-label-second"
+            data-en="STAY INSPIRED"
+            data-kn="ಪ್ರೇರಣೆಯಲ್ಲಿರಿ"
+        >
+            STAY INSPIRED
+        </span>
+
+        <span class="footer-mini-line"></span>
+
+    </div>
+
+</div>
+
+    </div>
+
+
+    <!-- =================================================
+         FOOTER BOTTOM
+    ================================================== -->
+
+    <div class="footer-bottom">
+
+        <p
+            class="footer-copyright"
+            data-en="© 2021 mPowerTalk. All rights reserved."
+            data-kn="© 2021 mPowerTalk. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ."
+        >
+            © 2021 mPowerTalk. All rights reserved.
+        </p>
+
+        <div class="footer-legal">
+
+            <a
+                href="#"
+                data-en="Privacy"
+                data-kn="ಗೌಪ್ಯತೆ"
+            >
+                Privacy
+            </a>
+
+            <a
+                href="#"
+                data-en="Terms"
+                data-kn="ನಿಯಮಗಳು"
+            >
+                Terms
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+</html>

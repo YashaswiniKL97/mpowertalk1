@@ -1416,7 +1416,7 @@ button {
 
     max-width: 100%;
 
-    overflow: hidden;
+    overflow: visible;
 
     box-sizing: border-box;
 }
@@ -7522,6 +7522,9 @@ html[lang="kn"] .talk-response > span {
 
     text-decoration: none;
 
+    white-space: nowrap;
+    flex-wrap: nowrap;
+
     transition:
         transform 0.2s ease,
         background 0.2s ease;
@@ -8217,35 +8220,6 @@ html[lang="kn"] .talk-response > span {
 
 
 /* =========================================================
-   PEOPLE / IDEAS / IMPACT
-========================================================= */
-
-.footer-brand-phrase {
-    width: 120px !important;
-
-    margin-top: 17px !important;
-
-    font-size: 21px !important;
-    line-height: 0.88 !important;
-}
-
-.footer-brand-phrase span:nth-child(2) {
-    margin-left: 18px !important;
-}
-
-.footer-brand-phrase span:nth-child(3) {
-    margin-left: 34px !important;
-}
-
-.footer-brand-phrase::after {
-    width: 48px !important;
-
-    margin-top: 8px !important;
-    margin-left: 39px !important;
-}
-
-
-/* =========================================================
    FOOTER COLUMNS
 ========================================================= */
 
@@ -8904,196 +8878,160 @@ html[lang="kn"] .talk-response > span {
         padding-right: 13px !important;
     }
 }
-/* =========================================================
-   FINAL FOOTER WAVE — SMOOTH & LOWER
-========================================================= */
-
-.footer-mini-card {
-    position: relative !important;
-    overflow: hidden !important;
-}
 
 /* =========================================================
-   FINAL FOOTER WAVE — LOWER & SMOOTH
+   PEOPLE • IDEAS • IMPACT
+   UNIQUE EDITORIAL BRAND STYLE
 ========================================================= */
 
-.footer-wave {
-    position: absolute !important;
+.footer-brand-phrase {
+    width: 150px !important;
 
-    left: -12% !important;
-    right: -12% !important;
+    margin-top: 23px !important;
 
-    bottom: -10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
 
-    width: 124% !important;
-    height: 58px !important;
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
 
-    background: #8fa36a !important;
+    font-size: 25px !important;
+    line-height: 0.82 !important;
 
-    opacity: 0.52 !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
 
-    clip-path: none !important;
+    letter-spacing: -0.8px !important;
 
-    border-radius:
-        50% 50% 0 0 /
-        75% 75% 0 0 !important;
+    transform: rotate(-4deg) !important;
 
-    transform:
-        rotate(-1deg) !important;
-
-    z-index: 1 !important;
+    color: #8fa36a !important;
 }
 
 
-/* =========================================================
-   LOWER SOFT OLIVE LAYER
-========================================================= */
+/* PEOPLE */
 
-.footer-wave::before {
+.footer-brand-phrase span:nth-child(1) {
+    margin-left: 0 !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+
+    font-weight: 500 !important;
+
+    color: #8fa36a !important;
+}
+
+
+/* IDEAS */
+
+.footer-brand-phrase span:nth-child(2) {
+    margin-left: 24px !important;
+
+    font-family:
+        "Brush Script MT",
+        "Segoe Script",
+        cursive !important;
+
+    font-size: 28px !important;
+
+    font-weight: 500 !important;
+
+    color: #a8b879 !important;
+}
+
+
+/* IMPACT */
+
+.footer-brand-phrase span:nth-child(3) {
+    margin-left: 48px !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+
+    font-size: 27px !important;
+
+    font-weight: 700 !important;
+
+    font-style: italic !important;
+
+    color: #f2c94c !important;
+}
+
+
+/* SMALL HAND-DRAWN ACCENT */
+
+.footer-brand-phrase::after {
     content: "" !important;
 
-    position: absolute !important;
+    display: block !important;
 
-    left: -4% !important;
-    right: -4% !important;
+    width: 58px !important;
+    height: 2px !important;
 
-    bottom: -8px !important;
-
-    width: 108% !important;
-    height: 45px !important;
-
-    background: rgba(
-        143,
-        163,
-        106,
-        0.78
-    ) !important;
-
-    clip-path: none !important;
-
-    border-radius:
-        55% 45% 0 0 /
-        80% 70% 0 0 !important;
-
-    transform:
-        rotate(1deg) !important;
-}
-
-
-/* =========================================================
-   SMOOTH YELLOW CURVE
-========================================================= */
-
-.footer-wave::after {
-    content: "" !important;
-
-    position: absolute !important;
-
-    left: 2% !important;
-    right: 0 !important;
-
-    top: 8px !important;
-
-    width: 96% !important;
-    height: 38px !important;
-
-    background: transparent !important;
-
-    border-top:
-        1.5px solid
-        #f2c94c !important;
+    margin-top: 10px !important;
+    margin-left: 54px !important;
 
     border-radius: 50% !important;
 
+    background: #f2c94c !important;
+
     transform:
         rotate(-4deg)
-        scaleX(1.08) !important;
+        skewX(-18deg) !important;
 
     opacity: 0.9 !important;
 }
 
 
 /* =========================================================
-   STAY CONNECTED TEXT
-   KEEP CLEARLY ABOVE WAVE
+   MOBILE
 ========================================================= */
 
-.footer-mini-content {
-    position: absolute !important;
+@media (max-width: 600px) {
 
-    z-index: 10 !important;
+    .footer-brand-phrase {
+        width: 115px !important;
 
-    left: 12px !important;
+        margin-top: 17px !important;
 
-    top: 18px !important;
-}
+        font-size: 19px !important;
 
+        line-height: 0.82 !important;
 
-/* =========================================================
-   MOBILE — WAVE LOWER
-========================================================= */
-
-@media (max-width: 480px) {
-
-    .footer-wave {
-        left: -15% !important;
-        right: -15% !important;
-
-        bottom: -8px !important;
-
-        width: 130% !important;
-        height: 50px !important;
-
-        border-radius:
-            52% 48% 0 0 /
-            78% 72% 0 0 !important;
-
-        transform:
-            rotate(-1deg) !important;
+        letter-spacing: -0.5px !important;
     }
 
 
-    .footer-wave::before {
-        left: -4% !important;
-        right: -4% !important;
+    .footer-brand-phrase span:nth-child(2) {
+        margin-left: 17px !important;
 
-        bottom: -6px !important;
-
-        width: 108% !important;
-        height: 38px !important;
-
-        border-radius:
-            55% 45% 0 0 /
-            80% 70% 0 0 !important;
-
-        transform:
-            rotate(1deg) !important;
+        font-size: 21px !important;
     }
 
 
-    .footer-wave::after {
-        left: 1% !important;
-        right: 0 !important;
+    .footer-brand-phrase span:nth-child(3) {
+        margin-left: 34px !important;
 
-        top: 6px !important;
-
-        width: 98% !important;
-        height: 32px !important;
-
-        border-top-width: 1.3px !important;
-
-        border-radius: 50% !important;
-
-        transform:
-            rotate(-4deg)
-            scaleX(1.08) !important;
+        font-size: 21px !important;
     }
 
 
-    .footer-mini-content {
-        left: 12px !important;
+    .footer-brand-phrase::after {
+        width: 43px !important;
 
-        top: 16px !important;
+        height: 1.5px !important;
+
+        margin-top: 7px !important;
+
+        margin-left: 38px !important;
     }
 }
 
@@ -9104,28 +9042,1030 @@ html[lang="kn"] .talk-response > span {
 
 @media (max-width: 380px) {
 
-    .footer-wave {
-        height: 46px !important;
+    .footer-brand-phrase {
+        width: 105px !important;
 
-        bottom: -7px !important;
+        margin-top: 15px !important;
+
+        font-size: 18px !important;
     }
 
 
-    .footer-wave::before {
-        height: 35px !important;
+    .footer-brand-phrase span:nth-child(2) {
+        margin-left: 15px !important;
+
+        font-size: 20px !important;
     }
 
 
-    .footer-wave::after {
-        top: 5px !important;
+    .footer-brand-phrase span:nth-child(3) {
+        margin-left: 30px !important;
 
-        height: 29px !important;
+        font-size: 20px !important;
     }
 
 
-    .footer-mini-content {
-        left: 10px !important;
+    .footer-brand-phrase::after {
+        width: 39px !important;
 
-        top: 14px !important;
+        margin-left: 33px !important;
+    }
+}
+
+
+/* =====================================================
+   FEATURED SALES WORKSHOP
+===================================================== */
+
+.featured-workshop {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    padding:
+        4px
+        20px
+        18px;
+
+    background:
+        #fffdf7;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+
+.featured-workshop-container {
+
+    width: 100%;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    box-sizing: border-box;
+}
+
+
+.featured-workshop-link {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.featured-workshop-image {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 100%;
+
+    height: 560px;
+
+    object-fit: cover;
+
+    object-position: center;
+}
+
+
+.featured-workshop-link:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 8px 24px
+        rgba(
+            38,
+            73,
+            46,
+            0.12
+        );
+}
+
+
+/* =====================================================
+   MOBILE WORKSHOP
+===================================================== */
+
+@media (max-width: 600px) {
+
+   .featured-workshop {
+    width: 100%;
+    max-width: 100%;
+    padding:
+        0
+        20px
+        6px;
+    background:
+        #fffdf7;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+    .featured-workshop-container {
+
+        width: 100%;
+
+        max-width: 100%;
+
+        margin: 0;
+
+        box-sizing: border-box;
+    }
+
+
+    .featured-workshop-link {
+
+        width: 100%;
+
+        max-width: 100%;
+
+        border-radius: 12px;
+
+        overflow: hidden;
+
+        box-shadow:
+            0 4px 14px
+            rgba(
+                38,
+                73,
+                46,
+                0.07
+            );
+    }
+
+
+    .featured-workshop-image {
+
+        width: 100%;
+
+        max-width: 100%;
+
+        height: auto;
+
+        display: block;
+    }
+}
+
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+
+    .featured-workshop {
+
+        padding:
+            3px
+            8px
+            12px;
+    }
+
+
+    .featured-workshop-link {
+
+        border-radius: 10px;
+    }
+
+}
+/* =====================================================
+   GLOBAL FONT SIZE BOOST
+   ONLY FONT SIZES — NO LAYOUT CHANGES
+===================================================== */
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.nav-item {
+    font-size: 12px;
+}
+
+.language-button {
+    font-size: 12px;
+}
+
+.book-session {
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero-label {
+    font-size: 11px;
+}
+
+.hero-kannada {
+    font-size: 18px;
+}
+
+.hero-description {
+    font-size: 16px;
+}
+
+.hero-primary-button,
+.hero-secondary-button {
+    font-size: 12px;
+}
+
+
+/* =====================================================
+   FEATURE HIGHLIGHTS
+===================================================== */
+
+.feature-content h3 {
+    font-size: 15px;
+}
+
+.feature-content p {
+    font-size: 12px;
+}
+
+
+/* =====================================================
+   UPCOMING EVENTS
+===================================================== */
+
+.events-title-row h2 {
+    font-size: 20px;
+}
+
+.events-heading p {
+    font-size: 12px;
+}
+
+.view-all-events {
+    font-size: 12px;
+}
+
+.event-main-info h3 {
+    font-size: 14px;
+}
+
+.event-meta {
+    font-size: 10px;
+}
+
+.event-speaker-name strong {
+    font-size: 11px;
+}
+
+.event-speaker-name span {
+    font-size: 9px;
+}
+
+.event-tags span {
+    font-size: 8px;
+}
+
+.events-swipe-hint {
+    font-size: 9px;
+}
+
+
+/* =====================================================
+   PAST EVENTS
+===================================================== */
+
+.past-events-title-row h2 {
+    font-size: 20px;
+}
+
+.past-events-heading p {
+    font-size: 12px;
+}
+
+.view-all-past-events {
+    font-size: 12px;
+}
+
+.past-event-content h3 {
+    font-size: 14px;
+}
+
+.past-event-content p {
+    font-size: 11px;
+}
+
+.past-event-date {
+    font-size: 10px;
+}
+
+.past-events-swipe-hint {
+    font-size: 9px;
+}
+
+
+/* =====================================================
+   UPCOMING PODCAST
+===================================================== */
+
+.podcast-title-row h2 {
+    font-size: 20px;
+}
+
+.podcast-title-row p {
+    font-size: 12px;
+}
+
+.view-all-podcast {
+    font-size: 12px;
+}
+
+.podcast-title h3 {
+    font-size: 14px;
+}
+
+.podcast-title p {
+    font-size: 9px;
+}
+
+.podcast-duration {
+    font-size: 9px;
+}
+
+
+/* =====================================================
+   PAST PODCAST
+===================================================== */
+
+.past-podcast-title-row h2 {
+    font-size: 20px;
+}
+
+.past-podcast-title-row p {
+    font-size: 12px;
+}
+
+.view-all-past-podcast {
+    font-size: 12px;
+}
+
+.past-podcast-title h3 {
+    font-size: 14px;
+}
+
+.past-podcast-title p {
+    font-size: 9px;
+}
+
+.past-podcast-duration {
+    font-size: 9px;
+}
+
+.past-podcast-status {
+    font-size: 8px;
+}
+
+
+/* =====================================================
+   TESTIMONIALS
+===================================================== */
+
+.testimonials-title-row h2 {
+    font-size: 20px;
+}
+
+.testimonials-title-row p {
+    font-size: 12px;
+}
+
+.view-all-testimonials {
+    font-size: 12px;
+}
+
+.testimonial-quote {
+    font-size: 14px;
+}
+
+.testimonial-quote-kn {
+    font-size: 13px;
+}
+
+.testimonial-content h3 {
+    font-size: 13px;
+}
+
+.testimonial-content > span {
+    font-size: 10px;
+}
+
+
+/* =====================================================
+   CLIENT COMPANIES
+===================================================== */
+
+.client-companies-title-row h2 {
+    font-size: 20px;
+}
+
+.client-companies-title-row p {
+    font-size: 12px;
+}
+
+
+/* =====================================================
+   LET'S TALK CTA
+===================================================== */
+
+.talk-cta-title h2 {
+    font-size: 29px;
+}
+
+.talk-cta-kannada-line p {
+    font-size: 14px;
+}
+
+.talk-cta-message p {
+    font-size: 14px;
+}
+
+.talk-cta-message span {
+    font-size: 10px;
+}
+
+.talk-whatsapp-text strong {
+    font-size: 12px;
+}
+
+.talk-whatsapp-text span {
+    font-size: 9px;
+}
+
+.talk-response strong {
+    font-size: 13px;
+}
+
+.talk-response > span {
+    font-size: 10px;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer-tagline {
+    font-size: 19px !important;
+}
+
+.footer-description {
+    font-size: 14px !important;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 18px !important;
+}
+
+.footer-links a {
+    font-size: 14px !important;
+}
+
+.footer-contact p {
+    font-size: 14px !important;
+}
+
+.footer-contact-button {
+    font-size: 13px !important;
+}
+
+.footer-mini-label {
+    font-size: 12px !important;
+}
+
+.footer-copyright {
+    font-size: 11px !important;
+}
+
+.footer-legal a {
+    font-size: 11px !important;
+}
+
+
+/* =====================================================
+   MOBILE FONT SIZE BOOST
+   ONLY FONT SIZES
+===================================================== */
+
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+
+    .nav-item {
+        font-size: 12px;
+    }
+
+    .language-button {
+        font-size: 11px;
+    }
+
+
+    /* HERO */
+
+    .hero-label {
+        font-size: 7.5px;
+    }
+
+    .hero-kannada {
+        font-size: 10.5px;
+    }
+
+    .hero-description {
+        font-size: 8.8px;
+    }
+
+    .hero-primary-button,
+    .hero-secondary-button {
+        font-size: 8.5px;
+    }
+
+
+    /* FEATURES */
+
+    .feature-content h3 {
+        font-size: 12px;
+    }
+
+    .feature-content p {
+        font-size: 10px;
+    }
+
+
+    /* UPCOMING EVENTS */
+
+    .events-title-row h2 {
+        font-size: 15px;
+    }
+
+    .events-heading p {
+        font-size: 8.5px;
+    }
+
+    .view-all-events {
+        font-size: 8.5px;
+    }
+
+    .event-date strong {
+        font-size: 20px;
+    }
+
+    .event-date span {
+        font-size: 8px;
+    }
+
+    .event-main-info h3 {
+        font-size: 13px;
+    }
+
+    .event-meta {
+        font-size: 9px;
+    }
+
+    .event-speaker-name strong {
+        font-size: 10px;
+    }
+
+    .event-speaker-name span {
+        font-size: 8px;
+    }
+
+    .event-tags span {
+        font-size: 7.5px;
+    }
+
+    .events-swipe-hint {
+        font-size: 8px;
+    }
+
+
+    /* PAST EVENTS */
+
+    .past-events-title-row h2 {
+        font-size: 15px;
+    }
+
+    .past-events-heading p {
+        font-size: 8.5px;
+    }
+
+    .view-all-past-events {
+        font-size: 8.5px;
+    }
+
+    .past-event-content h3 {
+        font-size: 13px;
+    }
+
+    .past-event-content p {
+        font-size: 10px;
+    }
+
+    .past-event-date {
+        font-size: 9px;
+    }
+
+    .past-events-swipe-hint {
+        font-size: 8px;
+    }
+
+
+    /* UPCOMING PODCAST */
+
+    .podcast-title-row h2 {
+        font-size: 15px;
+    }
+
+    .podcast-title-row p {
+        font-size: 8.5px;
+    }
+
+    .view-all-podcast {
+        font-size: 8.5px;
+    }
+
+    .podcast-title h3 {
+        font-size: 13px;
+    }
+
+    .podcast-title p {
+        font-size: 8px;
+    }
+
+    .podcast-duration {
+        font-size: 8px;
+    }
+
+
+    /* PAST PODCAST */
+
+    .past-podcast-title-row h2 {
+        font-size: 15px;
+    }
+
+    .past-podcast-title-row p {
+        font-size: 8.5px;
+    }
+
+    .view-all-past-podcast {
+        font-size: 8.5px;
+    }
+
+    .past-podcast-title h3 {
+        font-size: 12px;
+    }
+
+    .past-podcast-title p {
+        font-size: 7.5px;
+    }
+
+    .past-podcast-duration {
+        font-size: 8px;
+    }
+
+    .past-podcast-status {
+        font-size: 6.5px;
+    }
+
+
+    /* TESTIMONIALS */
+
+    .testimonials-title-row h2 {
+        font-size: 15px;
+    }
+
+    .testimonials-title-row p {
+        font-size: 8.5px;
+    }
+
+    .view-all-testimonials {
+        font-size: 8.5px;
+    }
+
+    .testimonial-quote {
+        font-size: 12.5px;
+    }
+
+    .testimonial-quote-kn {
+        font-size: 11.5px;
+    }
+
+    .testimonial-content h3 {
+        font-size: 11.5px;
+    }
+
+    .testimonial-content > span {
+        font-size: 9px;
+    }
+
+
+    /* CLIENT COMPANIES */
+
+    .client-companies-title-row h2 {
+        font-size: 15px;
+    }
+
+    .client-companies-title-row p {
+        font-size: 9px;
+    }
+
+
+    /* CTA */
+
+    .talk-cta-title h2 {
+        font-size: 24px !important;
+    }
+
+    .talk-cta-kannada-line p {
+        font-size: 11px !important;
+    }
+
+    .talk-cta-message p {
+        font-size: 11px !important;
+    }
+
+    .talk-cta-message span {
+        font-size: 9px !important;
+    }
+
+    .talk-whatsapp-text strong {
+        font-size: 11px !important;
+    }
+
+    .talk-whatsapp-text span {
+        font-size: 8.5px !important;
+    }
+
+    .talk-response strong {
+        font-size: 11px !important;
+    }
+
+    .talk-response > span {
+        font-size: 9px !important;
+    }
+
+
+    /* FOOTER */
+
+    .footer-tagline {
+        font-size: 12px !important;
+    }
+
+    .footer-description {
+        font-size: 8.5px !important;
+    }
+
+    .footer-links h3,
+    .footer-contact h3 {
+        font-size: 13px !important;
+    }
+
+    .footer-links a {
+        font-size: 10px !important;
+    }
+
+    .footer-contact p {
+        font-size: 10px !important;
+    }
+
+    .footer-contact-button {
+        font-size: 9px !important;
+    }
+
+    .footer-mini-label {
+        font-size: 8.5px !important;
+    }
+
+    .footer-copyright {
+        font-size: 8px !important;
+    }
+
+    .footer-legal a {
+        font-size: 8px !important;
+    }
+}
+
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+
+    .feature-content h3 {
+        font-size: 11px;
+    }
+
+    .feature-content p {
+        font-size: 9.5px;
+    }
+
+    .event-main-info h3 {
+        font-size: 12px;
+    }
+
+    .event-meta {
+        font-size: 8.5px;
+    }
+
+    .past-event-content h3 {
+        font-size: 12px;
+    }
+
+    .past-event-content p {
+        font-size: 9.5px;
+    }
+
+    .podcast-title h3 {
+        font-size: 12px;
+    }
+
+    .testimonial-quote {
+        font-size: 12px;
+    }
+
+    .testimonial-quote-kn {
+        font-size: 11px;
+    }
+
+    .client-companies-title-row h2 {
+        font-size: 14px;
+    }
+
+}
+/* =====================================================
+   MOBILE MENU — FIT EVERYTHING IN ONE VIEW
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .mobile-menu {
+        top: 70px !important;
+
+        left: 0 !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: calc(100vh - 70px) !important;
+        max-height: calc(100vh - 70px) !important;
+
+        padding:
+            6px 5% 12px !important;
+
+        box-sizing: border-box !important;
+
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+    }
+
+
+    /* ---------------------------------------------
+       NAVIGATION
+    --------------------------------------------- */
+
+    .mobile-navigation {
+        width: 100% !important;
+    }
+
+    .mobile-nav-item {
+        width: 100% !important;
+
+        padding:
+            10px 4px !important;
+
+        min-height: 38px !important;
+
+        display: flex !important;
+        align-items: center !important;
+
+        box-sizing: border-box !important;
+
+        font-size: 13px !important;
+        line-height: 1.2 !important;
+    }
+
+
+    /* ---------------------------------------------
+       LANGUAGE
+    --------------------------------------------- */
+
+    .mobile-language-area {
+        width: 100% !important;
+
+        padding-top: 11px !important;
+        padding-bottom: 10px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .mobile-language-area p {
+        margin-bottom: 7px !important;
+
+        font-size: 10px !important;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-language-buttons {
+        gap: 7px !important;
+    }
+
+    .mobile-language-option {
+        padding:
+            7px 16px !important;
+
+        min-height: 34px !important;
+
+        font-size: 10px !important;
+    }
+
+
+    /* ---------------------------------------------
+       BOOK A SESSION
+    --------------------------------------------- */
+
+    .mobile-book-session {
+        width: 100% !important;
+
+        height: 42px !important;
+        min-height: 42px !important;
+
+        border-radius: 50px !important;
+
+        font-size: 12px !important;
+
+        box-sizing: border-box !important;
+    }
+}
+
+
+/* =====================================================
+   VERY SMALL PHONES
+===================================================== */
+
+@media (max-width: 380px) {
+
+    .mobile-menu {
+        padding:
+            5px 4% 10px !important;
+    }
+
+    .mobile-nav-item {
+        padding:
+            8px 4px !important;
+
+        min-height: 34px !important;
+
+        font-size: 12px !important;
+    }
+
+    .mobile-language-area {
+        padding-top: 9px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .mobile-language-area p {
+        margin-bottom: 6px !important;
+
+        font-size: 9px !important;
+    }
+
+    .mobile-language-option {
+        min-height: 31px !important;
+
+        padding:
+            6px 14px !important;
+
+        font-size: 9px !important;
+    }
+
+    .mobile-book-session {
+        height: 39px !important;
+        min-height: 39px !important;
+
+        font-size: 11px !important;
     }
 }

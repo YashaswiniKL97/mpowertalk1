@@ -9136,9 +9136,9 @@ html[lang="kn"] .talk-response > span {
 
     max-width: 100%;
 
-    height: 560px;
+    height: auto;
 
-    object-fit: cover;
+    object-fit: contain;
 
     object-position: center;
 }
